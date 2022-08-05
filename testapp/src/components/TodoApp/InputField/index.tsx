@@ -8,7 +8,6 @@ interface InputFieldProps{
 
 const InputField:React.FC<InputFieldProps> =({todo, setTodo, handleAdd})=>{
     const inputRef = useRef<HTMLInputElement>(null);
-    
     return(
         <React.Fragment>
             <form className="input"  onSubmit={(e)=>{
