@@ -1,0 +1,45 @@
+.container{
+  margin: auto;
+  width: 400px;
+  border: 1px solid;
+  padding: 10px;
+
+}
+form{
+  width: 100%;
+}
+ul li{
+  list-style-type: circle;
+}
+.css-konndc-MuiListItemText-root{
+  margin-bottom: 15px !important;
+}
+ 
+.todos__single__button{
+  border: 1px solid #0a0a0a;
+  padding: 7px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.input__box{
+  padding: 7px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.input__btn{
+  padding: 8px;
+
+}
+.input__box__main{
+  width: 80%;
+  padding: 7px;
+  font-size: 16px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
